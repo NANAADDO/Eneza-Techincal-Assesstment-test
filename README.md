@@ -8,15 +8,16 @@
 <li>create mysql database.</li>
 <li>configure database connection details in the .env file with the newly created database.</li>
 <li>Run migration  in the command prompt pointing to the project folder ( php artisan migrate)</li>
-<li>Generate OAuth2 Passport key with the follwoing cmd(php artisan passport:keys)</li>
+    <li>Run cmd Generate OAuth2 Personal Access client (php artisan passport:install)
+<li>Run cmd to Generate OAuth2 Passport key with the follwoing cmd(php artisan passport:keys)</li>
+    
 </ul>
-H4>RUN DB SEEDER<H4>
+<h4>RUN DB SEEDER</h4>
 	<ol>
 		<li>php artisan db:seed --class=QuizTableDataSeeder</li>
 		<li>php artisan db:seed --class=ContentTableDataSeeder</li>
 		<li>php artisan db:seed --class=SubjecTableDataSeeder</li>
 		<li>php artisan db:seed --class=CourseTbaleDataSeeder</li>
-	
 	</ol>
 
 <h5>LAUNCHING APPLICATION IN THE BROWSER TO REGISTER AS A DEVELOPER</h5>
