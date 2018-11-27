@@ -10,6 +10,15 @@
 <li>Run migration  in the command prompt pointing to the project folder ( php artisan migrate)</li>
 <li>Generate OAuth2 Passport key with the follwoing cmd(php artisan passport:keys)</li>
 </ul>
+H4>RUN DB SEEDER<H4>
+	<ol>
+		<li>php artisan db:seed --class=QuizTableDataSeeder</li>
+		<li>php artisan db:seed --class=ContentTableDataSeeder</li>
+		<li>php artisan db:seed --class=SubjecTableDataSeeder</li>
+		<li>php artisan db:seed --class=CourseTbaleDataSeeder</li>
+	
+	</ol>
+
 <h5>LAUNCHING APPLICATION IN THE BROWSER TO REGISTER AS A DEVELOPER</h5>
 <ol>
 <li>Index Page :localhost/yourprojectname/public</li>
